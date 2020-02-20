@@ -1,7 +1,8 @@
 ## Lista de scripts
 
 Para executar os scripts:
-
+### `yarn`
+Para gerar a node_modules.
 ### `yarn start`
 
 Inicia o app em modo de desenvolvimento.<br>
