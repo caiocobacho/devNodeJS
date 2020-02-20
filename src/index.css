@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
+body {
+  
+
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 12vmin;
+  font-weight: 700;
+ 
+  outline: none;
+  white-space: nowrap;
+
+  
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(249, 249, 250);
+
+  background: linear-gradient(-90deg, #5f5864, #1e262b);
+  font-size: 18px;
+}
+
+.PosterFinder {
+  text-align: center;
+}
+
+.PosterFinder .header {
+
+  align-items: center;
+  justify-content:space-between;
+  font-size: calc(10px + 2vmin);
+  line-height: 0.5;
+  margin-bottom: 4vh;
+}
+
+.PosterFinder .label {
+  font-weight: bold;
+}
+
+.PosterFinder .searchButton {
+  background-color: rgb(44, 23, 230);
+  color: #FDFDFD;
+  font-weight: bold;
+  border: none;
+  line-height: 1.4;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.PosterFinder .searchButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.PosterFinder .searchBox {
+  margin: 0 0 0 3px;
+  background-color: rgb(253, 253, 253);
+  border: solid 1px rgb(44, 23, 230);
+  border-right: 0;
+  padding: 3px 6px;
+  border-radius: 2px 0 0 2px;
+  min-width: 300px;
+}
+
+.PosterGrid {
+  margin: auto;
+  max-width: 1600px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
