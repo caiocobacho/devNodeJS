@@ -1,3 +1,5 @@
+# API de filmes
+Escolha o filme desejado que a aplicação ira te retornar o poster do filme escolhido.
 ## Lista de scripts
 
 Para executar os scripts:
